@@ -1,0 +1,6 @@
+Migrar tablas por defecto de laravel
+--- php artisan migrate
+
+Para generar un nuevo controller
+---- php artisan make:controller AutController
+
