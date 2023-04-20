@@ -1,0 +1,19 @@
+-----SI EL REPOSITORIO YA EXISTE CLONAR EL REPOSITORIO
+       - git clone direction
+--Nuevo repositorio
+         git init
+
+-----RELACIONAR EL REPOSITORIO LOCAL CON EL REPOSITORIO REMOTO
+         CON GITHUB
+
+    1. CREAR CUENTA DE USUARIO
+    2. CREAR NUEVO REPOSITORIO
+       - git remote add origin https://github.com/Marce77777/back_sistema_ventas_laravel.git
+
+
+------------REPETITIVO---------------
+
+1.     git add .   //para subir
+2.     git commit -m "Api Auth Laravel"   //mensaje
+3.     git push origin master         //para subir al repositorio
+-----------------------------

@@ -3,9 +3,9 @@ Accept: application/json
 Content-Type:  application/json
 
 {
-    "name":"maria",
-    "email": "bernal@gmail.com",
-    "password": "bernal123"
+    "name":"jj",
+    "email": "jj@gmail.com",
+    "password": "jj123"
 
 }
 
@@ -15,6 +15,12 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "email": "micorreo@gmail.com",
-    "password":"micontraseña"
+    "email": "jj@gmail.com",
+    "password":"jj123"
 }
+###Obtener perfil
+GET http://127.0.0.1:8000/api/v1/auth/perfil
+Accept: application/json
+Authorization: Bearer 7|OJ1BZrXX8FPYcPCnsP5lsgXPPkwAE3ke1D3r1dcU
+
+

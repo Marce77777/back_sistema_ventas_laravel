@@ -28,7 +28,7 @@ class AuthController extends Controller
         $token = $resultadoToken->plainTextToken;
         //responder
         return response()->json([
-            "acces_token" =>$token,
+            "access_token" =>$token,
             "token_type" => "Bearer",
             "usuario" =>$user
         ]);
@@ -65,10 +65,10 @@ class AuthController extends Controller
     }
     public function salir(Request $request)
     {
-        $user = Auth::user()->tokens()->delete();
-        return response()->json([
-            "mensaje" => "Log out"
-        ],200);
+        // $user = Auth::user()->tokens()->delete();
+        // return response()->json([
+        //     "mensaje" => "Log out"
+        // ],200);
 
     }
 }
